@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { skillsData, Skill } from '@/mocks/skillsData';
 import { AnimatePresence, motion } from 'framer-motion';
 import { IconSearch, IconX } from '@tabler/icons-react';
+import type { JSX } from 'react';
+
 
 export default function SkillsSection() {
     const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
