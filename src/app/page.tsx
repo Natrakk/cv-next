@@ -4,50 +4,19 @@ import SkillsSection from "./components/SkillsSection";
 export default function HomePage() {
   return (
     <section className="text-[var(--color-text)]">
-      <div className="flex flex-col items-center text-center gap-6">
-        <h1 className="text-[var(--color-title)] text-4xl sm:text-5xl font-bold mt-8">
-          Pierre Vandevelde
-        </h1>
-
-        <p className="max-w-2xl text-lg sm:text-xl text-[var(--color-text)]">
-          Chef de projet et développeur passionné.<br />
-          Bienvenue sur mon CV interactif en ligne, propulsé par Next.js.
-        </p>
-
-        <div className="flex flex-col sm:flex-row gap-4">
-          <a
-            href="/contact"
-            className="bg-[var(--color-accent)] text-black font-semibold px-6 py-3 rounded hover:bg-[var(--color-accent-hover)] transition"
-          >
-            Me contacter
-          </a>
-
-          <a
-            href="/cv-pierre-vandevelde.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="border border-[var(--color-accent)] text-[var(--color-accent)] px-6 py-3 rounded hover:bg-[var(--color-accent)] hover:text-black transition"
-          >
-            Télécharger le CV
-          </a>
-        </div>
-      </div>
-
       <section className="mt-20 text-center">
         <SkillsSection />
       </section>
-
       <section className="mt-20 text-center">
         <ExpCards />
       </section>
-
       <section className="mt-20 text-center">
         <h2 className="text-[var(--color-title)] text-2xl font-bold mb-6">Projets</h2>
         <div className="grid gap-6 sm:grid-cols-2">
           <div className="border border-gray-700 rounded-lg p-4 text-left">
             <h3 className="font-semibold text-[var(--color-text)]">Système de réservation de padel</h3>
             <p className="text-[var(--color-muted)] text-sm">Next.js + Firebase</p>
-            <p className="mt-2">Création d'une app de réservation avec persistance et login.</p>
+            <p className="mt-2">Création d&apos;une app de réservation avec persistance et login.</p>
           </div>
           <div className="border border-gray-700 rounded-lg p-4 text-left">
             <h3 className="font-semibold text-[var(--color-text)]">Automatisation Google Workspace</h3>
@@ -56,7 +25,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
       <section className="mt-20 text-center">
         <h2 className="text-[var(--color-title)] text-2xl font-bold mb-6">Un projet ? Une opportunité ?</h2>
         <p className="text-[var(--color-text)] mb-4">
@@ -69,9 +37,6 @@ export default function HomePage() {
           Me contacter
         </a>
       </section>
-
     </section>
-
-
   );
 }

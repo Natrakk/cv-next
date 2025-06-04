@@ -1,16 +1,16 @@
 @import "tailwindcss";
 
 html,
-body {
+/* body {
   transition: background-color 0.5s ease, color 0.5s ease;
-}
+} */
 
 /* LIGHT THEME */
 :root {
   --color-bg: #f9fafb;
   --color-text: #111827;
   --color-title: #0ea5e9;
-  --color-muted: #6b7280;
+  --color-muted: #15a2e4;
   --color-border: #e5e7eb;
   --color-accent: #0ea5e9;
   --color-accent-hover: #38bdf8;
